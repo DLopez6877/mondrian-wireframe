@@ -2,6 +2,7 @@
 *:not(body):not(html) {
   box-sizing:border-box;
   border:1px dashed #000;
+  background-color: white;
 }
 
 .column {
@@ -13,18 +14,20 @@ body {
   margin: 0;
 }
 
-.container {
-  margin: 10px;
-  border-width: medium;
-  padding: 5%;
-  min-height: calc(100vh - 20px);
-}
 
 /*/////////////////////          GENERAL          /////////////////////*/
 .col1 {
-
+  height: 50vh
 }
 
+.col2 {
+  height: 20vh;
+  margin: 5vh 0;
+}
+
+.col3 {
+  height: 20vh;
+}
 /*/////////////////////          @MEDIA          /////////////////////*/
 
 /* Smartphones (landscape) ----------- */
